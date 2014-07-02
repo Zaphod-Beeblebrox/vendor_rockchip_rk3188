@@ -18,3 +18,22 @@
 PRODUCT_COPY_FILES += \
     vendor/rockchip/radxarock/proprietary/rk30xxnand_ko.ko.3.0.36+:root/rk30xxnand_ko.ko.3.0.36+ \
     vendor/rockchip/radxarock/proprietary/bin/mkdosfs:root/sbin/mkdosfs \
+
+# init.rc load modules
+PRODUCT_COPY_FILES += \
+    vendor/rockchip/radxarock/proprietary/lib/modules/ump.ko.3.0.36+:system/lib/modules/ump.ko.3.0.36+ \
+    vendor/rockchip/radxarock/proprietary/lib/modules/mali.ko.3.0.36+:system/lib/modules/mali.ko.3.0.36+ \
+    vendor/rockchip/radxarock/proprietary/lib/modules/rk30_mirroring.ko.3.0.36+:system/lib/modules/rk30_mirroring.ko.3.0.36+ \
+    vendor/rockchip/radxarock/proprietary/lib/modules/rk29-ipp.ko.3.0.36+:system/lib/modules/rk29-ipp.ko.3.0.36+ \
+
+# OpenGL
+PRODUCT_COPY_FILES += \
+    vendor/rockchip/radxarock/proprietary/lib/libMali.so:system/lib/libMali.so \
+    vendor/rockchip/radxarock/proprietary/lib/libUMP.so:system/lib/libUMP.so \
+    vendor/rockchip/radxarock/proprietary/lib/egl/libEGL_mali.so:system/lib/egl/libEGL_mali.so \
+    vendor/rockchip/radxarock/proprietary/lib/egl/libGLESv1_CM_mali.so:system/lib/egl/libGLESv1_CM_mali.so \
+    vendor/rockchip/radxarock/proprietary/lib/egl/libGLESv2_mali.so:system/lib/egl/libGLESv2_mali.so \
+
+# HAL
+PRODUCT_COPY_FILES += \
+    vendor/rockchip/radxarock/proprietary/lib/hw/gralloc.rk30board.so:system/lib/hw/gralloc.rk30board.so \
