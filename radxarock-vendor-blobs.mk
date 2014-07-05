@@ -37,3 +37,8 @@ PRODUCT_COPY_FILES += \
 # HAL
 PRODUCT_COPY_FILES += \
     vendor/rockchip/radxarock/proprietary/lib/hw/gralloc.rk30board.so:system/lib/hw/gralloc.rk30board.so \
+
+# Realtek wifi
+PRODUCT_COPY_FILES += \
+    vendor/rockchip/radxarock/proprietary/bin/rtl_supplicant:system/bin/rtl_supplicant \
+    vendor/rockchip/radxarock/proprietary/bin/rtl_hostapd:system/bin/rtl_hostapd \
