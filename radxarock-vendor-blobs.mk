@@ -42,3 +42,7 @@ PRODUCT_COPY_FILES += \
 PRODUCT_COPY_FILES += \
     vendor/rockchip/radxarock/proprietary/bin/rtl_supplicant:system/bin/rtl_supplicant \
     vendor/rockchip/radxarock/proprietary/bin/rtl_hostapd:system/bin/rtl_hostapd \
+
+# Media
+PRODUCT_COPY_FILES += \
+    vendor/rockchip/radxarock/proprietary/lib/libskia.so:system/lib/libskia.so \
