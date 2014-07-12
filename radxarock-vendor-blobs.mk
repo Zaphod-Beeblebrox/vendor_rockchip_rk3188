@@ -37,6 +37,8 @@ PRODUCT_COPY_FILES += \
 # HAL
 PRODUCT_COPY_FILES += \
     vendor/rockchip/radxarock/proprietary/lib/hw/gralloc.rk30board.so:system/lib/hw/gralloc.rk30board.so \
+    vendor/rockchip/radxarock/proprietary/lib/hw/acoustics.default.so:system/lib/hw/acoustics.default.so \
+    vendor/rockchip/radxarock/proprietary/lib/hw/alsa.default.so:system/lib/hw/alsa.default.so \
 
 # Realtek wifi
 PRODUCT_COPY_FILES += \
