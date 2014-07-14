@@ -48,3 +48,12 @@ PRODUCT_COPY_FILES += \
 # Media
 PRODUCT_COPY_FILES += \
     vendor/rockchip/radxarock/proprietary/lib/libskia.so:system/lib/libskia.so \
+    vendor/rockchip/radxarock/proprietary/lib/libion.so:system/lib/libion.so \
+    vendor/rockchip/radxarock/proprietary/bin/wfd:system/bin/wfd \
+    vendor/rockchip/radxarock/proprietary/lib/modules/vpu_service.ko.3.0.36+:system/lib/modules/vpu_service.ko.3.0.36+ \
+
+# GPU performance
+PRODUCT_COPY_FILES += \
+    vendor/rockchip/radxarock/proprietary/bin/performance:system/bin/performance \
+    vendor/rockchip/radxarock/proprietary/lib/libperformance_runtime.so:system/lib/libperformance_runtime.so \
+    vendor/rockchip/radxarock/proprietary/lib/hw/gpu.rk30board.so:system/lib/hw/gpu.rk30board.so \
