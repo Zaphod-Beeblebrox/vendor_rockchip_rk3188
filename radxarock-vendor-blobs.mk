@@ -39,6 +39,8 @@ PRODUCT_COPY_FILES += \
     vendor/rockchip/radxarock/proprietary/lib/hw/gralloc.rk30board.so:system/lib/hw/gralloc.rk30board.so \
     vendor/rockchip/radxarock/proprietary/lib/hw/acoustics.default.so:system/lib/hw/acoustics.default.so \
     vendor/rockchip/radxarock/proprietary/lib/hw/alsa.default.so:system/lib/hw/alsa.default.so \
+    vendor/rockchip/radxarock/proprietary/lib/hw/audio.primary.rk30board.so:system/lib/hw/audio.primary.rk30board.so \
+    vendor/rockchip/radxarock/proprietary/lib/hw/audio_policy.rk30board.so:system/lib/hw/audio_policy.rk30board.so \
 
 # Realtek wifi
 PRODUCT_COPY_FILES += \
@@ -49,6 +51,9 @@ PRODUCT_COPY_FILES += \
 PRODUCT_COPY_FILES += \
     vendor/rockchip/radxarock/proprietary/lib/libskia.so:system/lib/libskia.so \
     vendor/rockchip/radxarock/proprietary/lib/libion.so:system/lib/libion.so \
+    vendor/rockchip/radxarock/proprietary/lib/librk_audio.so:system/lib/librk_audio.so \
+    vendor/rockchip/radxarock/proprietary/lib/librk_demux.so:system/lib/librk_demux.so \
+    vendor/rockchip/radxarock/proprietary/lib/libstagefright_wfd.so:system/lib/libstagefright_wfd.so \
     vendor/rockchip/radxarock/proprietary/bin/wfd:system/bin/wfd \
     vendor/rockchip/radxarock/proprietary/lib/modules/vpu_service.ko.3.0.36+:system/lib/modules/vpu_service.ko.3.0.36+ \
 
