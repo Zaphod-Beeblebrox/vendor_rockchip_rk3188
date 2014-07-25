@@ -49,7 +49,6 @@ PRODUCT_COPY_FILES += \
 
 # Media
 PRODUCT_COPY_FILES += \
-    vendor/rockchip/radxarock/proprietary/lib/libskia.so:system/lib/libskia.so \
     vendor/rockchip/radxarock/proprietary/lib/libion.so:system/lib/libion.so \
     vendor/rockchip/radxarock/proprietary/lib/librk_audio.so:system/lib/librk_audio.so \
     vendor/rockchip/radxarock/proprietary/lib/librk_demux.so:system/lib/librk_demux.so \
